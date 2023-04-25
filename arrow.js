@@ -3,7 +3,7 @@ let arr=[1,2,3,4,5,6,7,8,9,10];
 const oddnum=(arr)=>{
 let result=[];
 for(let v of arr){
-    v%2!==0?result.push(v):false;                          //identifying odd number and then insert into the resutl array in this line.
+    v%2!==0?result.push(v):false;                          //identifying odd number and then insert into the resutl array in this line..
 };
 return result;
 }
