@@ -4,7 +4,7 @@
     let oddnum=function(arr){
         let odd_arr=[];
         for(let num of arr){
-           (num%2!==0)? odd_arr.push(num) : num;                    //ternary operator to split the odd number.
+           (num%2!==0)? odd_arr.push(num) : num;                    //ternary operator to split the odd number..
            }
         return odd_arr
        }
